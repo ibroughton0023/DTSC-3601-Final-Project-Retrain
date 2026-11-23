@@ -19,6 +19,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install pandas numpy xgboost boto3
+      - name: Install dependencies
+        run: pip install pandas numpy xgboost scikit-learn boto3
+
 
       - name: Run retraining
         env:
